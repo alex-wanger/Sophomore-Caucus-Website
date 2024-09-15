@@ -1,28 +1,42 @@
-body{
-    font-family: 'Sora', sans-serif;
-    background-color: #FFCBCB;
+html, body {
     margin: 0;
     padding: 0;
+    background-color: #FFCBCB;
+    font-family: 'Sora', sans-serif;
 }
 
 nav{
     height: 60px;
     width: 100%;
     display: flex;
+    z-index: 1;
 }
 
 .NavDiv{
     width: 20%;
     text-align: center;
+    text-decoration: none;
 }
 
-.NavLink{
+/* .FullWidthHeader{
+    width: 80%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(240, 220, 220);
+    margin: auto;
+    border-radius: 5%;
     color: #f88787;
+    box-shadow: 10px 10px 10px rgba(36, 13, 13, 0.2);
+} */
+
+.NavLink{
     text-decoration: none;
     font-size: 1.5vw;
     font-weight: bold;
     display: block;
     padding: 20px;
+    color: #f88787;
+
 }
 
 .NavLink:hover {
