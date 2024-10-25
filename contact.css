@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFCBCB;
+    font-family: 'Sora', sans-serif;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+
+.NavDiv{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavLink{
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    color: #ff6161;
+}
+
+.PageTitle {
+    color: #ff6161;
+    text-align: center;
+    z-index: 2;
+  
+  }
+  .Title{
+    top:50px;
+    position:relative;
+    z-index: 2;
+    background-color: #FFEAE3;
+    width:30%;
+    margin-left: 35%;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .ContactContainer{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #FFCBCB;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    border: black solid 2px;
+    background-color: white;
+    color: #ff6161;
+    font-size: 2vw;
+  }
+  .IntroDiv{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(229, 77, 77);
+  }
+  p{
+    text-decoration: none;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+  a:visted{
+    color: #ff6161;
+  }

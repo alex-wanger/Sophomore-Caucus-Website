@@ -18,24 +18,13 @@ nav{
     text-decoration: none;
 }
 
-/* .FullWidthHeader{
-    width: 80%;
-    text-align: center;
-    padding: 20px 0;
-    background-color: rgb(240, 220, 220);
-    margin: auto;
-    border-radius: 5%;
-    color: #f88787;
-    box-shadow: 10px 10px 10px rgba(36, 13, 13, 0.2);
-} */
-
 .NavLink{
     text-decoration: none;
     font-size: 1.5vw;
     font-weight: bold;
     display: block;
     padding: 20px;
-    color: #f88787;
+    color: #ff6161;
 
 }
 
@@ -45,7 +34,7 @@ nav{
 
 .heroSection {
     text-align: center;
-    color: #f88787;
+    color: #ff6161;
     width: 60%;
     margin: auto;
 }
@@ -80,7 +69,7 @@ nav{
 
 .introSection p {
     font-size: 1.5vw;
-    color: #f88787;
+    color: #ff6161;
 }
 
 .featureSection {
@@ -104,7 +93,7 @@ nav{
 
 .GridItem a {
     text-decoration: none;
-    color: #f88787;
+    color: #ff6161;
 }
 
 .GridItem:hover {
