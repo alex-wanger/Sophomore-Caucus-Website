@@ -19,6 +19,7 @@ nav{
     text-align: center;
 }
 
+
 .NavLink{
     color: #ff6161;
     text-decoration: none;
@@ -43,6 +44,14 @@ nav{
     display: flex;
     border-radius: 8px;
     margin: 32px 0;
+    text-align: center;
+  }
+
+  .event-img img{
+    max-width: 225px;
+    max-height: 225px;
+    border-radius: 10%;
+    border: solid black 3px;
   }
   
   .event-left {
@@ -81,21 +90,18 @@ nav{
   }
   
   .event .event-right .event-timing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-width: 100px;
     padding: 20px;
     border-style:solid;
     border-width: 2px;
-    border-width: medium;
     border-color: black;
-    border-radius: 16px;
-    margin-right: 20px;
+    border-radius: 6px;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-left:0px;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
   
   .event .event-right .event-timing img {
