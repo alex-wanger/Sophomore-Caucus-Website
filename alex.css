@@ -71,7 +71,7 @@ nav{
   background-color: white;
 }
 
-.GridContainer .GridItem:nth-last-child(-n+1) {
+.GridContainer .GridItem:last-child {
   border-bottom: 2px solid black;
 }
 .GridContainer .GridItem:first-child {
