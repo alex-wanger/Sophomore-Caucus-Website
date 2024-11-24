@@ -106,6 +106,7 @@ footer {
   font-size: 1.1vw;
   text-decoration: wavy;
   line-height: 2;
+  margin-top: auto;
 }
 
 footer .socials i {
