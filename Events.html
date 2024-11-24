@@ -8,114 +8,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f4283911db.js" crossorigin="anonymous"></script>
-    <title>Homepage</title>
+    <title>Events | Sophomore Caucus</title>
 </head>
 <body>
-    <nav>
-        <div class="NavDiv">
-            <a class="NavLink" href="index.html">Home</a>
-        </div>             
-        <div class="NavDiv">
-            <a class="NavLink" href="Resources.html">Resources</a>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Sophomore Caucus</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Resources.html">Resources</a>
+                <a href="Events.html" class="active">Events</a>
+                <a href="Cabinet.html">Cabinet</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
         </div>
-        <div class="NavDiv">
-            <a class="NavLink" href="Events.html">Events</a> 
-        </div>
-        <div class="NavDiv">
-            <a class="NavLink" href="Cabinet.html">Cabinet</a> 
-        </div>
-        <div class="NavDiv">
-            <a class="NavLink" href="Contact.html">Contact</a> 
-        </div>
-    </nav>
+    </header>
 
-    <div class="Title">
-        <h1 class="PageTitle">Events affiliated with the Sophomore Caucus!</h1>
-    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Explore Upcoming Events!</h1>
+            <p>Join us for engaging activities and experiences curated by the Sophomore Caucus.</p>
+        </div>
+    </section>
 
-    <div class="w3-container">
-        <div class="event-container">
-            <div class="event">
-                <div class="event-left">
-                    <div class="event-date">
-                        <div class="month">November</div>
-                        <div class="date">7</div>
-                        <div class="event-img">
-                            <img src="Images/Broadway.png" alt="Broadway Image">
-                        </div>
-                    </div>
+    <!-- Events Section -->
+    <section class="events">
+        <div class="container">
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="Images/Broadway.png" alt="Broadway">
                 </div>
-                <div class="event-right">
-                    <h3 class="event-title">Aladdin at Broadway!</h3>
-                    <div class="event-description">
-                        Come see Aladdin with us on Thursday, November 7th for just $10! Be sure to hand in your permission slips and money in Mr. Polazzo’s room.
-                    </div>
-                    <div class="w3-container" style="display:inline-flex;">
-                        <div class="event-timing">
-                            <img src="Images/clock.png" alt="Clock Icon" /> November 7th, 214 West 42nd St
-                        </div>
-                    </div>
+                <div class="event-content">
+                    <h2>Aladdin at Broadway</h2>
+                    <p>Join us on Thursday, November 7th, for an unforgettable show at Broadway! Tickets are $10. Submit permission slips to Mr. Polazzo’s room.</p>
+                    <span><i class="fa-solid fa-calendar"></i> November 7th</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 214 West 42nd St</span>
                 </div>
             </div>
-
-            <div class="event">
-                <div class="event-left">
-                    <div class="event-date">
-                        <div class="month">November</div>
-                        <div class="date">8</div>
-                        <div class="event-img">
-                            <img src="Images/YTTWorkshop.png" alt="YTT Workshop Image">
-                        </div>
-                    </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="Images/YTTWorkshop.png" alt="YTT Workshop">
                 </div>
-                <div class="event-right">
-                    <h3 class="event-title">YTT College Workshop</h3>
-                    <div class="event-description">
-                        Learn more about college admissions in this workshop with Yale alumnus JC Salinas!
-                    </div>
-                    <div class="w3-container" style="display:inline-flex;">
-                        <div class="event-timing">
-                            <img src="Images/clock.png" alt="Clock Icon" /> November 8th, 8PM Remote
-                        </div>
-                    </div>
+                <div class="event-content">
+                    <h2>YTT College Workshop</h2>
+                    <p>Learn more about college admissions with Yale alumnus JC Salinas. Happening on November 8th at 8 PM, join us remotely.</p>
+                    <span><i class="fa-solid fa-calendar"></i> November 8th</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Remote</span>
                 </div>
             </div>
-
-            <div class="event">
-                <div class="event-left">
-                    <div class="event-date">
-                        <div class="month">November</div>
-                        <div class="date">23</div>
-                        <div class="event-img">
-                            <img src="Images/CollegeTour.png" alt="College Tour Image">
-                        </div>
-                    </div>
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="Images/CollegeTour.png" alt="College Tour">
                 </div>
-                <div class="event-right">
-                    <h3 class="event-title">MIT/BU/NEU College Tours!</h3>
-                    <div class="event-description">
-                        Sophomore and Junior Caucus are planning a tour for MIT, Boston University, and Northeastern University. This is a full day trip and the expected cost will be $60.
-                    </div>
-                    <div class="w3-container" style="display:inline-flex;">
-                        <div class="event-timing">
-                            <img src="Images/clock.png" alt="Clock Icon" /> November 23rd
-                        </div>
-                    </div>
+                <div class="event-content">
+                    <h2>MIT/BU/NEU College Tours</h2>
+                    <p>Tour MIT, Boston University, and Northeastern University. This full-day trip is organized with the Junior Caucus and costs $60.</p>
+                    <span><i class="fa-solid fa-calendar"></i> November 23rd</span>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="special"><p>Sophomore Caucus 24-25</p></div>
-            <div class="special"><p>Presidents: Mufei Yu, Johanna Li</p></div>
-            <p>Chiefs Of Staff: Alexis Qian, Amelie Rhew</p>
-            <p>IT Directors: Alex Wang, Jacob Spitzer</p>
-            <p>IT Members: Kyle Ng, Jay Chen</p>
-            <div class="footer-links">
-                <a href="https://www.instagram.com/sophomorecaucus/"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Sophomore Caucus</p>
+                <p>Presidents: Mufei Yu & Johanna Li</p>
+                <p>Chiefs Of Staff: Alexis Qian & Amelie Rhew</p>
+                <p>IT Directors: Alex Wang & Jacob Spitzer</p>
+                <p>IT Members: Kyle Ng & Jay Chen</p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/sophomorecaucus/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                </div>
             </div>
         </div>
     </footer>

@@ -1,78 +1,144 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #FFCBCB;
-    font-family: 'Sora', sans-serif;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
 }
 
-nav{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    z-index: 1;
+/* Body and General Styling */
+body {
+  font-family: 'Sora', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
 }
 
-.NavDiv{
-    width: 20%;
-    text-align: center;
-    text-decoration: none;
+/* Navigation */
+.navbar {
+  background-color: #FF6161;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
-.NavLink{
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-weight: bold;
-    display: block;
-    padding: 20px;
-    color: #ff6161;
+.logo{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.PageTitle {
-    color: #ff6161;
-    text-align: center;
-    z-index: 2;
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar nav a:hover {
+  color: rgb(214, 212, 212);
   
-  }
-  .Title{
-    top:50px;
-    position:relative;
-    z-index: 2;
-    background-color: #FFEAE3;
-    width:30%;
-    margin-left: 35%;
-    margin-top: 50px;
-    padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #FF6161, #FFCBCB);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
     border-radius: 10px;
-  }
-  .ContactContainer{
-    position: relative;
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    background-color: #FFCBCB;
-    border-radius: 10px;
-    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
-    border: black solid 2px;
-    background-color: white;
-    color: #ff6161;
-    font-size: 2vw;
-  }
-  .IntroDiv{
-    text-align: center;
-    font-size: 2vw;
-    color: rgb(229, 77, 77);
-  }
-  p{
+    border: 1px solid #f3cccc;
     text-decoration: none;
+    color: black;
+}
+
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Makes the link inherit the text color from its parent */
+}
+
+a:hover {
+  text-decoration: underline; 
+  color: #ff6161;
+}
+
+.card h2 {
+  color: #FF6161;
+}
+
+.faculty-advisor {
+    grid-column: 2; /* Center under the second column (Instagram) */
+}
+
+/* Contact Info Section */
+
+
+
+/* Footer Styling */
+footer {
+  background-color: #FF6161;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.1vw;
+  text-decoration: wavy;
+  line-height: 2;
+}
+
+footer .socials i {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .socials i:hover {
+  color: #FFCBCB;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2rem;
   }
 
-  .bold{
-    font-weight: bold;
+  .hero p {
+      font-size: 1rem;
   }
-  a:visted{
-    color: #ff6161;
+
+  .contact-card p {
+      font-size: 0.9rem;
   }
+}

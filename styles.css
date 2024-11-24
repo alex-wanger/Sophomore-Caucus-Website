@@ -1,132 +1,154 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #FFCBCB;
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Sora', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
-nav{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    z-index: 1;
+header {
+    background-color: #ff6161;
+    padding: 20px 0;
 }
 
-.NavDiv{
-    width: 20%;
-    text-align: center;
+.navbar {
+    background-color: #FF6161;
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
-}
-
-.NavLink{
+  }
+  
+  
+  .events{
+    margin: auto;
+  }
+  .logo{
     text-decoration: none;
-    font-size: 1.5vw;
+    color: white;
+    font-size: 1.5rem;
     font-weight: bold;
-    display: block;
-    padding: 20px;
-    color: #ff6161;
+  }
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
 
-}
-
-.NavLink:hover {
-    background-color: #FFECEC;
+  .navbar nav a:hover{
+    color: rgb(214, 212, 212);
+  }
+main {
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .heroSection {
-    text-align: center;
-    color: #ff6161;
-    width: 60%;
-    margin: auto;
+    background: linear-gradient(to right, #ff6161, #f88787);
+    color: white;
+    padding: 100px 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    border: solid black 1px;
 }
 
 .heroSection h1 {
-    font-size: 3vw;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
 
 .heroSection p {
-    font-size: 1.5vw;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
 }
 
 .cta-button {
-    background-color: #f88787;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2vw;
-    cursor: pointer;
-    border-radius: 5px;
+    background-color: #ffcccb;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #FFB1B1;
-}
-
-.introSection {
-    text-align: center;
-}
-
-
-
-.introSection p {
-    font-size: 1.5vw;
-    color: #ff6161;
+    background-color: #ffb1b1;
 }
 
 .featureSection {
-    display: flex;
-    justify-content: space-around;
-}
-
-.GridContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    justify-items: center;
 }
 
-.GridItem {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid black;
-    padding: 2vw;
-    width: 30%;
+.featureCard {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: background-color 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: solid black 1px;
 }
 
-.GridItem a {
+.featureCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.featureCard h2 {
+    font-size: 1.8rem;
+    color: #ff6161;
+    margin-bottom: 10px;
+}
+
+.featureCard p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.cta-link {
     text-decoration: none;
     color: #ff6161;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-.GridItem:hover {
-    background-color: white;
+.cta-link:hover {
+    color: #f88787;
 }
 
 footer {
-    color: #ff6161;
+    background-color: #FF6161;
+    color: white;
     padding: 20px 0;
     text-align: center;
     font-size: 1.1vw;
-    border-top: 2px solid #FFCBCB;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-links {
-    margin-top: 10px;
-}
-
-.footer-links a {
-    color: #ff6161;
-    text-decoration: none;
+    text-decoration: wavy;
+    line-height: 2;
+  }
+  
+  footer .socials a {
+    color: white;
     margin: 0 10px;
-}
-
-.footer-links a:hover {
-    text-decoration: underline; 
-}
-
-.special {
-    font-weight: bold;
-}
+    text-decoration: none;
+  }
+  
+  footer .socials a:hover {
+    color: #FFCBCB;
+  }

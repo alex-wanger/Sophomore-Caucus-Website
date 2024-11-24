@@ -8,73 +8,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f4283911db.js" crossorigin="anonymous"></script>
-    <title>Homepage</title>
+    <title>Sophomore Caucus</title>
 </head>
 <body>
-    <div class ="Header">
-        <nav>
-            <div class = "NavDiv">
-                <a class = "NavLink" href="index.html">Home</a>
-            </div>             
-            <div class = "NavDiv">
-                <a class = "NavLink" href="Resources.html">Resources</a>
-            </div>
-            <div class = "NavDiv">
-                <a class = "NavLink" href="Events.html">Events</a> 
-            </div>
-            <div class = "NavDiv">
-                <a class = "NavLink" href="Cabinet.html">Cabinet</a> 
-            </div>
-            <div class = "NavDiv"> 
-                <a class = "NavLink" href="Contact.html">Contact</a> 
-            </div>
-        </nav>
-    </div>
-    <!-- <div class="FullWidthHeader">
-        <h1>Sophomore Caucus</h1>
-    </div> -->
-    <div class="MainContent">
-        <div class="heroSection">
-            <h1>Welcome to the Sophomore Caucus!</h1>
-            <p>We are committed to making your sophomore year memorable and successful. The Sophomore Caucus of 24-25 is headed by Mufei Yu and Johanna Li.</p>
+    <!-- Header (same as Events) -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Sophomore Caucus</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Resources.html">Resources</a>
+                <a href="Events.html" class="active">Events</a>
+                <a href="Cabinet.html">Cabinet</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
 
-        <div class="featureSection">
-            <div class="GridContainer">
-                <div class="GridItem">
-                    <a href="Resources.html">
-                        <h2>Resources</h2>
-                        <p>Access study materials and class support</p>
-                    </a>
-                </div>
-                <div class="GridItem">
-                    <a href="Events.html">
-                        <h2>Events</h2>
-                        <p>Stay updated on upcoming events</p>
-                    </a>
-                </div>
-                <div class="GridItem">
-                    <a href="Cabinet.html">
-                        <h2>Meet the Team</h2>
-                        <p>Get to know the leaders of the caucus</p>
-                    </a>
-                </div>
+    <main>
+        <section class="heroSection">
+            <h1>Welcome to the Sophomore Caucus!</h1>
+            <p>Making your sophomore year a memorable and successful one. Led by Mufei Yu and Johanna Li.</p>
+            <a href="Events.html" class="cta-button">Join Our Events</a>
+        </section>
+        <section class="featureSection">
+            <div class="featureCard">
+                <h2>Resources</h2>
+                <p>Access study materials and class support.</p>
+                <a href="Resources.html" class="cta-link">Learn More</a>
             </div>
-        </div>
-    </div>
+            <div class="featureCard">
+                <h2>Events</h2>
+                <p>Stay updated on upcoming events.</p>
+                <a href="Events.html" class="cta-link">Explore Events</a>
+            </div>
+            <div class="featureCard">
+                <h2>Meet the Team</h2>
+                <p>Get to know the leaders of the caucus.</p>
+                <a href="Cabinet.html" class="cta-link">Meet Us</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <div class="footer-content">
-          <div class="special"><p>Sophomore Caucus 24-25</p></div>
-          <div class="special"><p>Presidents: Mufei Yu, Johanna Li</p></div>
-          <p>Chiefs Of Staff: Alexis Qian, Amelie Rhew</p>
-          <p>IT Directors: Alex Wang, Jacob Spitzer</p>
-          <p>IT Members: Kyle Ng, Jay Chen</p>
-          <div class="footer-links">
-            <a href="https://www.instagram.com/sophomorecaucus/"><i class="fa-brands fa-square-instagram fa-2x"></i></a>
-            <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
-          </div>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Sophomore Caucus</p>
+                <p>Presidents: Mufei Yu & Johanna Li</p>
+                <p>Chiefs Of Staff: Alexis Qian & Amelie Rhew</p>
+                <p>IT Directors: Alex Wang & Jacob Spitzer</p>
+                <p>IT Members: Kyle Ng & Jay Chen</p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/sophomorecaucus/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
