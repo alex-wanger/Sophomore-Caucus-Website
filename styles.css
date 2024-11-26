@@ -16,7 +16,7 @@ header {
 }
 
 .navbar {
-    background-color: #FF6161;
+    background-color: #fc8e8e;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -54,7 +54,7 @@ main {
 }
 
 .heroSection {
-    background: linear-gradient(to right, #ff6161, #f88787);
+    background: linear-gradient(to right, #f88787, #FFCBCB);
     color: white;
     padding: 100px 20px;
     border-radius: 10px;
@@ -134,7 +134,7 @@ main {
 }
 
 footer {
-    background-color: #FF6161;
+    background-color: #fc8e8e;
     color: white;
     padding: 20px 0;
     text-align: center;
