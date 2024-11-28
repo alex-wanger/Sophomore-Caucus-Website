@@ -1,10 +1,10 @@
-/* General Reset */
+@import url("combined.css");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-
 }
 
 /* Body and General Styling */
@@ -15,37 +15,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation */
-.navbar {
-  background-color: #FF6161;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-.logo{
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-.navbar nav a:hover {
-  color: rgb(214, 212, 212);
-  
-}
 
 /* Hero Section */
 .hero {
@@ -96,7 +65,8 @@ a:hover {
 }
 
 .card h2 {
-  color: #FF6161;
+ color: #fa9292;
+}
 }
 
 .faculty-advisor {
@@ -107,26 +77,6 @@ a:hover {
 
 
 
-/* Footer Styling */
-footer {
-  background-color: #FF6161;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 1.1vw;
-  text-decoration: wavy;
-  line-height: 2;
-}
-
-footer .socials i {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-footer .socials i:hover {
-  color: #FFCBCB;
-}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
