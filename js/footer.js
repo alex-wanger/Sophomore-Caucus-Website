@@ -5,11 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("footer").innerHTML = data;
         });
 
-    fetch("header.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("header").innerHTML = data;
-        });
 });
 
 
