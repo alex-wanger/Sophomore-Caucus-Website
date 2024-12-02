@@ -56,6 +56,7 @@ title{
 .event-image img {
   width: 100%;
   height: auto;
+  max-height: 500px;
 }
 
 .event-content {
